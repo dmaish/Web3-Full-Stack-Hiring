@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 const Bank = artifacts.require("Bank");
 const { expect } = require('chai');
 const { BN, ether, balance } = require('@openzeppelin/test-helpers');
@@ -5,8 +6,8 @@ const { BN, ether, balance } = require('@openzeppelin/test-helpers');
 // Use https://github.com/indutny/bn.js/
 Bank.numberFormat = "BN";
 // ABIs are from https://github.com/ryanio/truffle-mint-dai/tree/master/test/abi
-const daiABI = require("./abi/dai");
-const usdcABI = require("./abi/erc20");
+const daiABI = require("./react-app/src/abi/dai");
+const usdcABI = require("./react-app/src/abi/erc20");
 
 const daiContractAddress = "0x6b175474e89094c44da98b954eedeac495271d0f";
 const daiContract = new web3.eth.Contract(daiABI, daiContractAddress);

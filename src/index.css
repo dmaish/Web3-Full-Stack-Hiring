@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(252,252,254);
+  background: linear-gradient(24deg, rgba(252,252,254,1) 58%, rgba(228,247,251,1) 100%);
+
+  
+}

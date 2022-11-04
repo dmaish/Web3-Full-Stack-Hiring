@@ -1,0 +1,98 @@
+.title {
+    background: -webkit-linear-gradient(60deg, rgb(250, 197, 197), rgb(90, 2, 78));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: '100px'!important;
+    font-weight: '600'!important;
+}
+
+.btn-container {
+    width: 100%;
+    margin-top: 3.4em;
+    height: 3.4em;
+}
+
+.submit-btn {
+    width: 90%;
+    height: 100%;
+    background: -webkit-linear-gradient(60deg, rgb(176, 176, 176), rgb(19, 0, 17));
+    border-radius: 35px;
+    color: white;
+}
+
+.arrow-image {
+    height: 15px;
+    width: 15px;
+}
+
+.large-coin-image {
+    height: 6.5em;
+    width: 6.5em;
+}
+
+.crypto-balance {
+    font-size: 2em;
+    margin: 0.6em;
+    /* font-family: Arial, Helvetica, sans-serif!important; */
+    font-weight: 700;
+    color: rgb(45, 43, 43);
+}
+
+.card {
+    border: none;
+}
+
+.input-area {
+    border: white;
+    background-color: white;
+    box-shadow:  20px 20px 60px #d0e0e0,
+             -20px -20px 60px #efe1e1;
+}
+
+.btn-area {
+    box-shadow:  20px 20px 60px #d0e0e0,
+             -20px -20px 60px #efe1e1;
+}
+
+.addr-input {
+    padding: 10px;
+    border-right:none;
+    border-top:none;
+    border-bottom: none;
+    border-left: 2px solid rgb(225, 222, 222);
+    border-radius: 0px!important;
+}
+
+.fiat-input {
+    border:none;
+    border-radius: 0px!important;
+    caret-color: transparent;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+.right-card {
+    border-radius: 10px;
+    background: #f3f6f6;
+    box-shadow:  20px 20px 60px #d0e0e0,
+             -20px -20px 60px #efe1e1;
+}
+
+.transparent-bg{
+    background-color: transparent;
+}
+
+.fiat-balance {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
