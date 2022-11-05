@@ -1,4 +1,4 @@
-##steps to test:
+## Steps to test:
 1. Navigate to https://rococo-cascaron-0e98ed.netlify.app/
 2. Pick either USDC or DAI and input the address you want to check the balance for
 3. Click on 'Submit'
