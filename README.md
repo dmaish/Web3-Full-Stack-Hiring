@@ -1,3 +1,12 @@
+##steps to test:
+1. Navigate to https://rococo-cascaron-0e98ed.netlify.app/
+2. Pick either USDC or DAI and input the address you want to check the balance for
+3. Click on 'Submit'
+
+
+
+
+
 # Web3-Full-Stack-Hiring
 
 Hello! If you're reading this, you applied to a Full Stack Engineering role at Syndicate. This is Syndicate's hiring test for Full Stack engineers. (Note: If you have not applied but stumbled across this repository somehow, you are welcome to check out our [job postings](https://jobs.ashbyhq.com/syndicate).)
